@@ -1,8 +1,12 @@
 def cascadeIsPositive(list):
-    # Début de ton code
-    pass
-    # Fin de ton code
-
+    for idx, val in enumerate(list):
+    	if val > 0:
+    		list[idx] = True
+    	elif val == 0:
+    		list[idx] = None
+    	else:
+    		list[idx] = False
+    return list
 
 
 # Pas touche!

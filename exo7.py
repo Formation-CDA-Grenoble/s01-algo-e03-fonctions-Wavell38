@@ -1,9 +1,10 @@
 def cascadeIsGreater(list, number):
-    # Début de ton code
-    pass
-    # Fin de ton code
-
-
+    for idx, val in enumerate(list):
+    	if val >= number:
+    		list[idx] = True
+    	else:
+    		list[idx] = False
+    return list
 
 # Pas touche!
 tests = (

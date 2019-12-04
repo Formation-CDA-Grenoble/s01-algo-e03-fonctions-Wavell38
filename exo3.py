@@ -1,7 +1,10 @@
 def isEqual(number1, number2):
-    # Début de ton code
-    pass
-    # Fin de ton code
+	if number1.isnumeric() and number2.isnumeric():
+	    if number1 == number2:
+	    	return True
+	    else:
+	    	return False
+raise Exeption('error')
 
 
 

@@ -1,8 +1,7 @@
 def cascadeMultiply(list, number):
-    # Début de ton code
-    pass
-    # Fin de ton code
-
+    for idx, val in enumerate(list):
+    	list[idx] = val * number
+    return list
 
 
 # Pas touche!

@@ -1,7 +1,8 @@
 def reducer(list):
-    # Début de ton code
-    pass
-    # Fin de ton code
+	result = 0
+    for l in list:
+    	result += l
+	return result
 
 
 
